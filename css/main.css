@@ -30,7 +30,7 @@ body {
 .logo {
   display: block;
   width: 25%;
-  float: left;
+  float: right;
   margin: 1.3rem 0;
 }
 
@@ -38,8 +38,14 @@ header {
   overflow: hidden;
 }
 
+h1 {
+  float: left;
+  width: 50%
+}
+
 nav {
   margin: 0 0 1.3rem;
+  clear: both;
 }
 
 nav ul {
@@ -134,4 +140,39 @@ nav a:hover {
 footer {
   font-size: 0.875rem;
   text-align: center;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  h1 {
+    width: 50%;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1 {
+    width: 75%;
+  }
+
+  nav {
+    clear: left;
+    display: inline-block;
+  }
+
 }
