@@ -43,6 +43,34 @@ h1 {
   width: 50%;
 }
 
+nav a {
+  display: block;
+  padding: .4em .6em;
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: .4em .75em .3em;
+  background-color: #333;
+  border: 3px solid #333;
+  border-radius: 8px;
+  margin: 0 .6rem .6rem;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #666;
+  border: 3px solid #666;
+}
+
 nav {
   margin: 0 0 1.3rem;
   clear: both;
@@ -56,13 +84,6 @@ nav ul {
 
 nav li {
   text-align: left;
-}
-
-nav a {
-  display: block;
-  padding: .4em .6em;
-  text-decoration: none;
-  color: #000;
 }
 
 nav a:hover {
@@ -102,27 +123,6 @@ nav a:hover {
   padding: 0 .6em;
 }
 
-.btn {
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
-  padding: .4em .75em .3em;
-  background-color: #333;
-  border: 3px solid #333;
-  border-radius: 8px;
-  margin: 0 .6rem .6rem;
-}
-
-.btn a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.btn:hover {
-  background-color: #666;
-  border: 3px solid #666;
-}
-
 .contact {
   text-align: center;
 }
@@ -152,7 +152,7 @@ nav a:hover {
 }
 
 footer {
-  font-size: 0.875rem;
+  font-size: .875rem;
   text-align: center;
   color: #fff;
   background-color: #666;
@@ -241,7 +241,7 @@ footer {
     width: 30%;
     border: 3px solid #666;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, .2);
   }
 
   .hours {
@@ -252,7 +252,7 @@ footer {
     transform: translateX(-50%);
     border: 3px solid #666;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, .2);
   }
 
   .blog {
@@ -262,7 +262,7 @@ footer {
     width: 30%;
     border: 3px solid #666;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, .2);
   }
 
   .selection-card {
@@ -276,7 +276,7 @@ footer {
     width: 40%;
     border: 3px solid #666;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, .2);
   }
 
   .event-card {
@@ -290,7 +290,7 @@ footer {
     width: 40%;
     border: 3px solid #666;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, .2);
   }
 
   .contact {
